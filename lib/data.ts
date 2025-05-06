@@ -1,12 +1,12 @@
-import talkiePhoke from "@/public/image/projectOne.png";
-import mealonWheel from "@/public/image/projectTwo.png";
-import educlaas from "@/public/image/educlass.png"
-import westYangonTech from "@/public/image/education2.png"
-import dirAceLogo from "@/public/image/DAT_Logo.png"
-import lomTechLogo from "@/public/image/LOMTECH-01.png"
-import knowyourNeighbour from "@/public/image/projectThree.png"
-import carSale from "@/public/image/projectFour.png"
-import job from "@/public/image/job.png"
+import talkiePhoke from "/image/projectOne.png";
+import mealonWheel from "/image/projectTwo.png";
+import educlaas from "/image/educlass.png"
+import westYangonTech from "/image/education2.png"
+import dirAceLogo from "/image/DAT_Logo.png"
+import lomTechLogo from "/image/LOMTECH-01.png"
+import knowyourNeighbour from "/image/projectThree.png"
+import carSale from "/image/projectFour.png"
+import job from "/image/job.png"
 
 export const links = [
   {
