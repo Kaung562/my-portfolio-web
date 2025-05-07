@@ -11,6 +11,7 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
 };
 
 module.exports = nextConfig;
