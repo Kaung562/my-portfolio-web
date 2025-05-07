@@ -1,3 +1,13 @@
+import talkiePhoke from "../public/image/projectone.png";
+import mealonWheel from "../public/image/projecttwo.png";
+import educlaas from "../public/image/educlass.png"
+import westYangonTech from "../public/image/education2.png"
+import dirAceLogo from "../public/image/dat_logo.png"
+import lomTechLogo from "../public/image/lomtech-01.png"
+import knowyourNeighbour from "../public/image/projectThree.png"
+import carSale from "./public/image/projectfour.png"
+import job from "../public/image/job.png"
+
 export const links = [
   {
     name: "Home",
@@ -35,7 +45,7 @@ export const educationData = [
     location: "Yangon, Myanmar",
     description:
       "I ended my journey as an IT student in my third year because I found a full-time job and managed to continue part-time studies at Lithan EduCLaaS.",
-    imageUrl: "/image/education2.png",  // Changed to relative path
+    imageUrl: westYangonTech,
     date: "May 2022 - May 2024",
   },
   {
@@ -43,7 +53,7 @@ export const educationData = [
     location: "Singapore (Online)",
     description:
       "After one year of bootcamp, I quickly landed a job as a full-stack developer. I'm now studying part-time and working as a backend developer.",
-    imageUrl: "/image/educlass.png",  // Changed to relative path
+    imageUrl: educlaas,
     date: "June 2023 - Present",
   },
 ] as const;
@@ -55,7 +65,7 @@ export const experiencesData = [
     location: "Yangon, Myanmar",
     description:
       "I worked as a full-stack for 3 months helping in user registration and token handling",
-    imageUrl: "/image/DAT_Logo.png",  // Changed to relative path
+    imageUrl: dirAceLogo,
     date: "August 2024 - Nov 2024",
   },
   {
@@ -64,7 +74,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I also worked as a freelance full-stack developer for about 3 months. My stack includes TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
-    imageUrl: "/image/job.png",  // Changed to relative path
+      imageUrl: job,
     date: "Dec 2024 - March 2025",
   },
   {
@@ -73,7 +83,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I'm now a Backend developer. My stack includes Java, Spring Boot and RestAPI. I'm open to full-time opportunities.",
-    imageUrl: "/image/LOMTECH-01.png",  // Changed to relative path
+    imageUrl: lomTechLogo,
     date: "April 2025 - Present",
   },
 ] as const;
@@ -84,7 +94,7 @@ export const projectsData = [
     description:
       "I developed this project using the MERN stack. Once logged in, users can chat with other registered users. The project leverages Socket.IO for real-time communication and MongoDB for data storage.",
     tags: ["React", "node.js", "ExpressJS", "MongoDB"],
-    imageUrl: "/image/projectOne.png",  // Changed to relative path
+    imageUrl: talkiePhoke,
     demoUrl: "https://fullstack-realtime-chatapp-mern.onrender.com",
     sourceUrl: "https://github.com/Kaung562/fullstack-realtime-chatapp-MERN",
   },
@@ -93,7 +103,7 @@ export const projectsData = [
     description:
       "This project involves a team effort with five members, aiming to develop a full-stack application. I've been actively engaged in numerous meetings, honing my collaboration skills along the way. Within the project scope, my primary responsibilities include front-end design, conducting risk analysis, and providing assistance with backend challenges as they arise.",
     tags: ["HTML", "CSS", "Java Script", "Java", "Spring Boot", "MySQL"],
-    imageUrl: "/image/projectTwo.png",  // Changed to relative path
+    imageUrl: mealonWheel,
     sourceUrl: "https://github.com/Kaung562/Meal-On-Wheel-GroupProject",
   },
   {
@@ -101,7 +111,7 @@ export const projectsData = [
     description:
       "This project is an application that enables CRUD (Create, Read, Update, Delete) operations, incorporating registration, authentication, and authorization features along with Social Login API integration. Users are required to register and log in to add store information. Passwords are securely encrypted, and users also have the option to log in using their Facebook accounts.",
     tags: ["ReactJS", "Java","Spring Boot","RESTAPIs", "MySQL", "Social Login API"],
-    imageUrl: "/image/projectThree.png",  // Changed to relative path
+    imageUrl: knowyourNeighbour,
     sourceUrl: "https://github.com/kaungmyatkyaw02/word-analytics",
   },
   {
@@ -109,10 +119,13 @@ export const projectsData = [
     description:
       "A CRUD app with registration, authentication, and authorization. Users register with encrypted passwords to post car info; admins can view, edit, and delete entries. Data is stored in a MySQL database.",
     tags: ["HTML", "CSS", "JavaScript", "Java","Spring Boot","Spring Security", "MySQL"],
-    imageUrl: "/image/projectFour.png",  // Changed to relative path
+    imageUrl: carSale,
     sourceUrl: "https://github.com/Kaung562/simple-CRUD-store-with-Security-Authentication-And-Authorization",
   },
 ] as const;
+
+
+
 
 export const skillsData = {
   frontend: [

@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/image/kaungimg3WithCollarRemovedLongSleeve.png"
-              alt="Ricardo portrait"
+              alt="Kaung Myat"
               width="192"
               height="192"
               quality="95"
