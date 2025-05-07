@@ -1,12 +1,12 @@
-import talkiePhoke from "../public/image/projectonee.png";
-import mealonWheel from "../public/image/projecttwoo.png";
+import talkiePhoke from "@/public/image/projectonee.png"
+import mealonWheel from "@/public/image/projecttwoo.png"
 import educlaas from "../public/image/educlasss.png"
 import westYangonTech from "../public/image/education.png"
 import dirAceLogo from "../public/image/datlogo.png"
 import lomTechLogo from "../public/image/lomtech.png"
 import knowyourNeighbour from "../public/image/projectthreee.png"
-import carSale from "./public/image/projectfourr.png"
-import job from "../public/image/jobb.png"
+import carSale from "../public/image/projectfourr.png"
+import job from "../public/image/jobbb.png"
 
 export const links = [
   {
