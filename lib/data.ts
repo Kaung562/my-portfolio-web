@@ -1,42 +1,21 @@
-import talkiePhoke from "@/public/image/projectonee.png"
-import mealonWheel from "@/public/image/projecttwoo.png"
-import educlaas from "../public/image/educlasss.png"
-import westYangonTech from "../public/image/education.png"
-import dirAceLogo from "../public/image/datlogo.png"
-import lomTechLogo from "../public/image/lomtech.png"
-import knowyourNeighbour from "../public/image/projectthreee.png"
-import carSale from "../public/image/projectfourr.png"
-import job from "../public/image/jobbb.png"
+const talkiePhoke = "/image/projectonee.png";
+const mealonWheel = "/image/projecttwoo.png";
+const educlaas = "/image/educlasss.png";
+const westYangonTech = "/image/education.png";
+const dirAceLogo = "/image/datlogo.png";
+const lomTechLogo = "/image/lomtech.png";
+const knowyourNeighbour = "/image/projectthreee.png";
+const carSale = "/image/projectfourr.png";
+const job = "/image/jobbb.png";
 
 export const links = [
-  {
-    name: "Home",
-    hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Education",
-    hash: "#education",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+  { name: "Home", hash: "#home" },
+  { name: "About", hash: "#about" },
+  { name: "Projects", hash: "#projects" },
+  { name: "Skills", hash: "#skills" },
+  { name: "Education", hash: "#education" },
+  { name: "Experience", hash: "#experience" },
+  { name: "Contact", hash: "#contact" },
 ] as const;
 
 export const educationData = [
@@ -74,7 +53,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I also worked as a freelance full-stack developer for about 3 months. My stack includes TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
-      imageUrl: job,
+    imageUrl: job,
     date: "Dec 2024 - March 2025",
   },
   {
@@ -124,32 +103,8 @@ export const projectsData = [
   },
 ] as const;
 
-
-
-
 export const skillsData = {
-  frontend: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Tailwind",
-  ],
-  backend: [
-    "Node.js",
-    "Express",
-    "Java",
-    "Spring Boot",
-    "REST API",
-    "Canvas API",
-    "Python",
-    "Docker",
-  ],
-  database: [
-    "MongoDB",
-    "PostgreSQL",
-    "Firebase",
-    "MySQL",
-  ],
+  frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind"],
+  backend: ["Node.js", "Express", "Java", "Spring Boot", "REST API", "Canvas API", "Python", "Docker"],
+  database: ["MongoDB", "PostgreSQL", "Firebase", "MySQL"],
 } as const;
