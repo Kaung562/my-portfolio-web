@@ -64,7 +64,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I also worked as a freelance full-stack developer for about 3 months. My stack includes TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
-    imageUrl: "/image/jobb.png",
+    imageUrl: "/image/jobbb.png",
     date: "Dec 2024 - March 2025",
   },
   {
