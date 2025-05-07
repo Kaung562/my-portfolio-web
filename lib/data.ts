@@ -132,6 +132,7 @@ export const skillsData = {
     "Canvas API",
     "Python",
     "Docker",
+    "Git",
   ],
   database: [
     "MongoDB",
