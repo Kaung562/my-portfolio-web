@@ -2,8 +2,8 @@ import talkiePhoke from "../public/image/projectone.png";
 import mealonWheel from "../public/image/projecttwo.png";
 import educlaas from "../public/image/educlass.png"
 import westYangonTech from "../public/image/education2.png"
-import dirAceLogo from "../public/image/dat_logo.png"
-import lomTechLogo from "../public/image/lomtech-01.png"
+import dirAceLogo from "../public/image/datlogo.png"
+import lomTechLogo from "../public/image/lomtech.png"
 import knowyourNeighbour from "../public/image/projectThree.png"
 import carSale from "./public/image/projectfour.png"
 import job from "../public/image/job.png"
