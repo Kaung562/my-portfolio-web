@@ -1,13 +1,3 @@
-import talkiePhoke from "/image/projectonee.png"
-import mealonWheel from "/image/projecttwoo.png"
-import educlaas from "/image/educlasss.png"
-import westYangonTech from "/image/education.png"
-import dirAceLogo from "/image/datlogo.png"
-import lomTechLogo from "/image/lomtech.png"
-import knowyourNeighbour from "/image/projectthreee.png"
-import carSale from "/image/projectfourr.png"
-import job from "/image/jobbb.png"
-
 export const links = [
   {
     name: "Home",
@@ -45,7 +35,7 @@ export const educationData = [
     location: "Yangon, Myanmar",
     description:
       "I ended my journey as an IT student in my third year because I found a full-time job and managed to continue part-time studies at Lithan EduCLaaS.",
-    imageUrl: westYangonTech,
+    imageUrl: "/image/education.png",
     date: "May 2022 - May 2024",
   },
   {
@@ -53,7 +43,7 @@ export const educationData = [
     location: "Singapore (Online)",
     description:
       "After one year of bootcamp, I quickly landed a job as a full-stack developer. I'm now studying part-time and working as a backend developer.",
-    imageUrl: educlaas,
+    imageUrl: "/image/educlasss.png",
     date: "June 2023 - Present",
   },
 ] as const;
@@ -65,7 +55,7 @@ export const experiencesData = [
     location: "Yangon, Myanmar",
     description:
       "I worked as a full-stack for 3 months helping in user registration and token handling",
-    imageUrl: dirAceLogo,
+    imageUrl: "/image/datlogo.png",
     date: "August 2024 - Nov 2024",
   },
   {
@@ -74,7 +64,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I also worked as a freelance full-stack developer for about 3 months. My stack includes TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
-      imageUrl: job,
+    imageUrl: "/image/jobb.png",
     date: "Dec 2024 - March 2025",
   },
   {
@@ -83,7 +73,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I'm now a Backend developer. My stack includes Java, Spring Boot and RestAPI. I'm open to full-time opportunities.",
-    imageUrl: lomTechLogo,
+    imageUrl: "/image/lomtech.png",
     date: "April 2025 - Present",
   },
 ] as const;
@@ -94,7 +84,7 @@ export const projectsData = [
     description:
       "I developed this project using the MERN stack. Once logged in, users can chat with other registered users. The project leverages Socket.IO for real-time communication and MongoDB for data storage.",
     tags: ["React", "node.js", "ExpressJS", "MongoDB"],
-    imageUrl: talkiePhoke,
+    imageUrl: "/image/projectonee.png",
     demoUrl: "https://fullstack-realtime-chatapp-mern.onrender.com",
     sourceUrl: "https://github.com/Kaung562/fullstack-realtime-chatapp-MERN",
   },
@@ -103,7 +93,7 @@ export const projectsData = [
     description:
       "This project involves a team effort with five members, aiming to develop a full-stack application. I've been actively engaged in numerous meetings, honing my collaboration skills along the way. Within the project scope, my primary responsibilities include front-end design, conducting risk analysis, and providing assistance with backend challenges as they arise.",
     tags: ["HTML", "CSS", "Java Script", "Java", "Spring Boot", "MySQL"],
-    imageUrl: mealonWheel,
+    imageUrl: "/image/projecttwoo.png",
     sourceUrl: "https://github.com/Kaung562/Meal-On-Wheel-GroupProject",
   },
   {
@@ -111,7 +101,7 @@ export const projectsData = [
     description:
       "This project is an application that enables CRUD (Create, Read, Update, Delete) operations, incorporating registration, authentication, and authorization features along with Social Login API integration. Users are required to register and log in to add store information. Passwords are securely encrypted, and users also have the option to log in using their Facebook accounts.",
     tags: ["ReactJS", "Java","Spring Boot","RESTAPIs", "MySQL", "Social Login API"],
-    imageUrl: knowyourNeighbour,
+    imageUrl: "/image/projectthreee.png",
     sourceUrl: "https://github.com/kaungmyatkyaw02/word-analytics",
   },
   {
@@ -119,13 +109,10 @@ export const projectsData = [
     description:
       "A CRUD app with registration, authentication, and authorization. Users register with encrypted passwords to post car info; admins can view, edit, and delete entries. Data is stored in a MySQL database.",
     tags: ["HTML", "CSS", "JavaScript", "Java","Spring Boot","Spring Security", "MySQL"],
-    imageUrl: carSale,
+    imageUrl: "/image/projectfourr.png",
     sourceUrl: "https://github.com/Kaung562/simple-CRUD-store-with-Security-Authentication-And-Authorization",
   },
 ] as const;
-
-
-
 
 export const skillsData = {
   frontend: [
