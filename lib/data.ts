@@ -63,7 +63,7 @@ export const experiencesData = [
     company: "Upwork",
     location: "Remote",
     description:
-      "I also worked as a freelance full-stack developer for about 3 months. My stack includes TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
+      "I also worked as a freelance full-stack developer for about 3 months. My stack includes TypeScript, Tailwind and MongoDB.",
     imageUrl: "/image/jobbb.png",
     date: "Dec 2024 - March 2025",
   },
@@ -72,7 +72,7 @@ export const experiencesData = [
     company: "Lom-Tech",
     location: "Remote",
     description:
-      "I'm now a Backend developer. My stack includes Java, Spring Boot and RestAPI. I'm open to full-time opportunities.",
+      "My tech stack includes Java, Spring Boot, and RESTful APIs. I have integrated external services such as the Canvas LMS API and have experience documenting APIs using Loop. I work closely with frontend teams, preparing and testing APIs in Postman to ensure smooth integration. I also have to use Redis and Docker.",
     imageUrl: "/image/lomtech.png",
     date: "April 2025 - Present",
   },
@@ -133,6 +133,8 @@ export const skillsData = {
     "Python",
     "Docker",
     "Git",
+    "GitLab",
+    "Redis"
   ],
   database: [
     "MongoDB",

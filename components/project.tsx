@@ -46,6 +46,7 @@ export default function Project({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100 max-w-[48rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[30rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
@@ -63,7 +64,7 @@ export default function Project({
           </ul>
           <div className="flex gap-3 mt-4 sm:mt-auto">
             {demoUrl && (
-                <a
+              <a
                 href={demoUrl}
                 target="_blank"
                 className="inline-flex items-center gap-1 whitespace-nowrap bg-black/100 hover:bg-black/70 text-white px-4 py-1.5 rounded-md text-sm transition"
@@ -85,18 +86,18 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
+          width={600}
+          height={400}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
-
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
-
-        group-even:right-[initial] group-even:-left-40"
+            transition 
+            group-hover:scale-[1.04]
+            group-hover:-translate-x-3
+            group-hover:translate-y-3
+            group-hover:-rotate-2
+            group-even:group-hover:translate-x-3
+            group-even:group-hover:translate-y-3
+            group-even:group-hover:rotate-2
+            group-even:right-[initial] group-even:-left-40"
         />
         
       </section>

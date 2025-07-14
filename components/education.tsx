@@ -50,7 +50,7 @@ export default function Education() {
                 </div>
               }
               iconStyle={{
-                background: "white", // Always light background
+                background: "white",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
